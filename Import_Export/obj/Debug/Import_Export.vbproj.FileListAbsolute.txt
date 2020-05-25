@@ -1,0 +1,58 @@
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\bin\Debug\Import_Export.exe.config
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\bin\Debug\Import_Export.exe
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\bin\Debug\Import_Export.pdb
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\bin\Debug\Import_Export.xml
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\obj\Debug\Import_Export.Form1.resources
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\obj\Debug\Import_Export.Resources.resources
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\obj\Debug\Import_Export.vbproj.GenerateResource.cache
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\obj\Debug\Import_Export.vbproj.CoreCompileInputs.cache
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\obj\Debug\Import_Export.exe
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\obj\Debug\Import_Export.xml
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\obj\Debug\Import_Export.pdb
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\obj\Debug\Import_Export.Form2.resources
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\bin\Debug\MySql.Data.dll
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\obj\Debug\Import_Export.vbproj.CopyComplete
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\bin\Debug\Devart.Data.MySql.dll
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\bin\Debug\Devart.Data.MySql.Vs.dll
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\bin\Debug\MySqlBackup.dll
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\bin\Debug\Devart.Data.dll
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\bin\Debug\EnvDTE.dll
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\bin\Debug\VSLangProj.dll
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\bin\Debug\VsWebSite.Interop.dll
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\bin\Debug\stdole.dll
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\bin\Debug\Devart.Data.MySql.xml
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\bin\Debug\Devart.Data.xml
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\obj\Debug\Import_Export.exe.config
+C:\Users\Laurenz\Documents\Visual Studio 2017\Projects\Import_Export\Import_Export\obj\Debug\Import_Export.vbprojResolveAssemblyReference.cache
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\bin\Debug\Import_Export.exe.config
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\bin\Debug\Import_Export.exe
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\bin\Debug\Import_Export.pdb
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\bin\Debug\Import_Export.xml
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\bin\Debug\Devart.Data.MySql.dll
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\bin\Debug\Devart.Data.MySql.Vs.dll
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\bin\Debug\MySql.Data.dll
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\bin\Debug\MySqlBackup.dll
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\bin\Debug\Devart.Data.dll
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\bin\Debug\EnvDTE.dll
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\bin\Debug\VSLangProj.dll
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\bin\Debug\VsWebSite.Interop.dll
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\bin\Debug\stdole.dll
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\bin\Debug\Devart.Data.MySql.xml
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\bin\Debug\Devart.Data.xml
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\obj\Debug\Import_Export.vbprojResolveAssemblyReference.cache
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\obj\Debug\Import_Export.exe.config
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\obj\Debug\Import_Export.Form1.resources
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\obj\Debug\Import_Export.Form2.resources
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\obj\Debug\Import_Export.Resources.resources
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\obj\Debug\Import_Export.vbproj.GenerateResource.cache
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\obj\Debug\Import_Export.vbproj.CoreCompileInputs.cache
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\obj\Debug\Import_Export.vbproj.CopyComplete
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\obj\Debug\Import_Export.exe
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\obj\Debug\Import_Export.xml
+C:\Users\Laurenz\Documents\Schule\Facharbeit\Import_Export\Import_Export\obj\Debug\Import_Export.pdb

@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Verbindungsaufbau</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" /> 
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    </head>
+    <body>
+        <h2>Verbindungsaufbau und Einstellungen</h2>
+        <p>Import-Export-Tools ist für die DigiKam-Version unter Verwendung eines externen MySQL-Servers konzipiert. <br /> 
+            Dies ermöglicht den schnellen Zugriff auf die Datenbanken. Um zu den Datenbanken verbinden zu könne, braucht Import-Export-Tools jedoch verschiedene Parameter.<br />
+            Um diese Parameter anzupassen, starten Sie das Programm, gehen Sie unter Datei -> Einstellungen und geben Sie die erforderlichen Werte an. Dabei gilt folgendes:
+            <ul>
+                <li><p><b>Host:</b> Der Datenbankserver. Kann eine IPv4-Addresse, eine URL oder 'localhost' sein. (Standart: localhost)</p></li>
+                <li><p><b>Benutzer:</b> Der Datenbankbenutzer zur Verbindung zur Datenbank. Sollte der bei DigiKam angegebene Benutzername sein<sup>1</sup>.</p></li>
+                <li><p><b>Passwort:</b> Passwort des Benutzers. Sollte das bei DigiKam angegebene Passwort sein<sup>1</sup>.</p></li>
+                <li><p><b>Core DB name:</b> Der Datenbankname der Core DB. Muss der bei Digikam angegebene sein.</p></li>
+                <li><p><b>Thumbs DB name:</b> Der Datenbankname der Thumbs  DB. Muss der bei Digikam angegebene sein.</p></li>
+                <li><p><b>Face DB name:</b> Der Datenbankname der Face DB. Muss der bei Digikam angegebene sein.</p></li>
+            </ul><br />
+            Sofern Sie auf eine Internetresource zugreifen, überprüfen Sie die Verfügbarkeit.<br /><br />
+            <sup>1</sup> Es ist jedoch besser, einen eigenen Benutzer mit den Rechten SELECT, INSERT, UPDATE, DELETE, CREATE, DROP und LOCK TABLES zu erstellen und die Daten dieses Benutzers zu verwenden.<br />
+            Sofern Sie keinen Zugriff auf den MySQL-Server haben, müssen Sie jedoch den DigiKam-User verwenden.
+        </p>
+    </body>
+</html>

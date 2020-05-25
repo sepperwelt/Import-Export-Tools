@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>ftp://denkerhoehle.bplaced.net/digikam/download/|ftp://denkerhoehle.bplaced.net/digikam/publish/|ftp://denkerhoehle.bplaced.net/Import_Export/|ftp://denkerhoehle.bplaced.net/|publish\</PublishUrlHistory>
+    <InstallUrlHistory>http://denkerhoehle.bplaced.net/digikam/download/|http://denkerhoehle.bplaced.net/Import_Export/|http://denkerhoehle.bplaced.net/|http://updates.denkerhoehle.bplaced.net/</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory>http://denkerhoehle.bplaced.net/digikam/updates/</UpdateUrlHistory>
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>de-DE</FallbackCulture>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+    <ProjectView>ProjectFiles</ProjectView>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>
