@@ -24,7 +24,7 @@ Namespace Objects
 #Region "Functions"
             Public Overloads Function TestConnection()
                 If Not ConnectionString Or ConnectionString = "" Or ConnectionString = Nothing Then
-                    Faults.ErrHandler(990, , "Es wurde kein Wert für 'ConnectionString' in 'MySQL.vb' angegeben.")
+                    Faults.ErrHandler(990, , "No proper value for 'ConnectionString' in 'MySQL.vb'")
                     Return 1
                     Exit Function
                 End If
@@ -67,7 +67,7 @@ Namespace Objects
 
             Public Overloads Function TestConnection(ByVal ConnectionString As String)
                 If Not ConnectionString Or ConnectionString = "" Or ConnectionString = Nothing Then
-                    Faults.ErrHandler(990, , "Es wurde kein Wert für 'ConnectionString' in 'MySQL.vb' angegeben.")
+                    Faults.ErrHandler(990, , "No proper value for 'ConnectionString' in 'MySQL.vb'")
                     Return 1
                     Exit Function
                 End If

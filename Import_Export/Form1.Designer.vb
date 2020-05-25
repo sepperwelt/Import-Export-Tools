@@ -69,7 +69,7 @@ Partial Class Form1
         Me.GroupBox1.Size = New System.Drawing.Size(520, 589)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Sichern / Exportieren"
+        Me.GroupBox1.Text = "Save / Export"
         '
         'Label8
         '
@@ -109,9 +109,9 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(6, 23)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(64, 13)
+        Me.Label1.Size = New System.Drawing.Size(48, 13)
         Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Speicherort:"
+        Me.Label1.Text = "Location"
         '
         'Btn_Save
         '
@@ -119,14 +119,14 @@ Partial Class Form1
         Me.Btn_Save.Name = "Btn_Save"
         Me.Btn_Save.Size = New System.Drawing.Size(93, 23)
         Me.Btn_Save.TabIndex = 1
-        Me.Btn_Save.Text = "Durchsuchen..."
+        Me.Btn_Save.Text = "Browse..."
         Me.Btn_Save.UseVisualStyleBackColor = True
         '
         'Txt_Save
         '
-        Me.Txt_Save.Location = New System.Drawing.Point(76, 19)
+        Me.Txt_Save.Location = New System.Drawing.Point(60, 19)
         Me.Txt_Save.Name = "Txt_Save"
-        Me.Txt_Save.Size = New System.Drawing.Size(339, 20)
+        Me.Txt_Save.Size = New System.Drawing.Size(355, 20)
         Me.Txt_Save.TabIndex = 0
         '
         'GroupBox2
@@ -142,7 +142,7 @@ Partial Class Form1
         Me.GroupBox2.Size = New System.Drawing.Size(582, 589)
         Me.GroupBox2.TabIndex = 1
         Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Wiederherstellen / Importieren"
+        Me.GroupBox2.Text = "Load / Import"
         '
         'PB_import
         '
@@ -157,10 +157,10 @@ Partial Class Form1
         Me.Label7.AutoSize = True
         Me.Label7.Location = New System.Drawing.Point(6, 126)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(548, 13)
+        Me.Label7.Size = New System.Drawing.Size(514, 13)
         Me.Label7.TabIndex = 15
-        Me.Label7.Text = "Hinweis: Vor Importieren der Datenbanken müssen die Datenbanknamen in den Einstel" &
-    "lungen gespeichert werden!"
+        Me.Label7.Text = "Hint: Before Import of the databases make sure you have saved the correct databas" &
+    "e names in the settings!"
         '
         'Btn_Import
         '
@@ -177,7 +177,7 @@ Partial Class Form1
         Me.Btn_Load.Name = "Btn_Load"
         Me.Btn_Load.Size = New System.Drawing.Size(93, 23)
         Me.Btn_Load.TabIndex = 6
-        Me.Btn_Load.Text = "Durchsuchen..."
+        Me.Btn_Load.Text = "Browse..."
         Me.Btn_Load.UseVisualStyleBackColor = True
         '
         'Txt_DB
@@ -192,9 +192,9 @@ Partial Class Form1
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(6, 23)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(123, 13)
+        Me.Label3.Size = New System.Drawing.Size(110, 13)
         Me.Label3.TabIndex = 0
-        Me.Label3.Text = "Speicherort Digikam DB:"
+        Me.Label3.Text = "Location Digikam DB:"
         '
         'MenuStrip1
         '
@@ -211,8 +211,8 @@ Partial Class Form1
         Me.DateiToolStripMenuItem.Name = "DateiToolStripMenuItem"
         Me.DateiToolStripMenuItem.ShortcutKeyDisplayString = ""
         Me.DateiToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.D), System.Windows.Forms.Keys)
-        Me.DateiToolStripMenuItem.Size = New System.Drawing.Size(46, 20)
-        Me.DateiToolStripMenuItem.Text = "Datei"
+        Me.DateiToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
+        Me.DateiToolStripMenuItem.Text = "File"
         Me.DateiToolStripMenuItem.ToolTipText = "Einstellungen"
         '
         'Menu_eig
@@ -220,20 +220,20 @@ Partial Class Form1
         Me.Menu_eig.Name = "Menu_eig"
         Me.Menu_eig.ShortcutKeyDisplayString = ""
         Me.Menu_eig.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.S), System.Windows.Forms.Keys)
-        Me.Menu_eig.Size = New System.Drawing.Size(185, 22)
-        Me.Menu_eig.Text = "Einstellungen"
+        Me.Menu_eig.Size = New System.Drawing.Size(180, 22)
+        Me.Menu_eig.Text = "Settings..."
         '
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(182, 6)
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(177, 6)
         '
         'Menu_close
         '
         Me.Menu_close.Name = "Menu_close"
         Me.Menu_close.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.F4), System.Windows.Forms.Keys)
-        Me.Menu_close.Size = New System.Drawing.Size(185, 22)
-        Me.Menu_close.Text = "Beenden"
+        Me.Menu_close.Size = New System.Drawing.Size(180, 22)
+        Me.Menu_close.Text = "Exit..."
         '
         'HilfeToolStripMenuItem
         '
@@ -248,21 +248,21 @@ Partial Class Form1
         '
         Me.Menu_Help.Enabled = False
         Me.Menu_Help.Name = "Menu_Help"
-        Me.Menu_Help.Size = New System.Drawing.Size(158, 22)
-        Me.Menu_Help.Text = "Hilfe anzeigen"
+        Me.Menu_Help.Size = New System.Drawing.Size(180, 22)
+        Me.Menu_Help.Text = "Help..."
         Me.Menu_Help.Visible = False
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(155, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(177, 6)
         '
         'Menu_Imp
         '
         Me.Menu_Imp.Name = "Menu_Imp"
         Me.Menu_Imp.ShortcutKeys = System.Windows.Forms.Keys.F10
-        Me.Menu_Imp.Size = New System.Drawing.Size(158, 22)
-        Me.Menu_Imp.Text = "Impressum"
+        Me.Menu_Imp.Size = New System.Drawing.Size(180, 22)
+        Me.Menu_Imp.Text = "About..."
         '
         'SBD_Save
         '
@@ -297,7 +297,7 @@ Partial Class Form1
         Me.MainMenuStrip = Me.MenuStrip1
         Me.MaximizeBox = False
         Me.Name = "Form1"
-        Me.Text = "Import - Export für Digikam"
+        Me.Text = "Import - Export for Digikam"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)

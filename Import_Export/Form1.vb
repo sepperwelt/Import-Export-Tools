@@ -93,7 +93,7 @@ Public Class Form1
         End Try
 
         If (Date_sel = True) Or (Time_sel = True) Then
-            Label8.Text = "Das Datum bzw. die Systemzeit wird nach Abschließen des Vorgangs als Dateiname angehängt."
+            Label8.Text = "Date and Time are added to the file name after the process has started."
         Else
             Label8.Text = ""
         End If
@@ -154,7 +154,7 @@ Public Class Form1
 
         Try
             Query(1, Path)      ' ### neue Meldung einfügen ###
-            MessageBox.Show("Die Datenbank wurde erfolgreich gesichert und in das angegebene Verzeichnis abgelegt.", "Speichern erfolgreich", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            MessageBox.Show("The Database is exported successfully and the file is saved in the specified directory.", "Export successful", MessageBoxButtons.OK, MessageBoxIcon.Information)
         Catch ex As Exception
             Faults.ErrHandler(904, , ex.Message)
         End Try
