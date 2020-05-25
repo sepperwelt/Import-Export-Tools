@@ -42,13 +42,13 @@ Partial Class Form2
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Btn_Backup = New System.Windows.Forms.Button()
         Me.Txt_Backup = New System.Windows.Forms.TextBox()
-        Me.CB_Time = New System.Windows.Forms.CheckBox()
-        Me.CB_Date = New System.Windows.Forms.CheckBox()
         Me.Btn_Folder = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Txt_MySQL = New System.Windows.Forms.TextBox()
         Me.Btn_Abort = New System.Windows.Forms.Button()
         Me.Btn_Save = New System.Windows.Forms.Button()
+        Me.CB_Date = New System.Windows.Forms.CheckBox()
+        Me.CB_Time = New System.Windows.Forms.CheckBox()
         Me.FBD_MySQL = New System.Windows.Forms.FolderBrowserDialog()
         Me.FBD_Backup = New System.Windows.Forms.FolderBrowserDialog()
         Me.FBD_Import = New System.Windows.Forms.FolderBrowserDialog()
@@ -70,7 +70,7 @@ Partial Class Form2
         Me.GroupBox1.Size = New System.Drawing.Size(1095, 497)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "allgemeine Einstellungen"
+        Me.GroupBox1.Text = "General Settings"
         '
         'GroupBox3
         '
@@ -90,7 +90,7 @@ Partial Class Form2
         Me.GroupBox3.Size = New System.Drawing.Size(1082, 155)
         Me.GroupBox3.TabIndex = 20
         Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "Datenbankverbindung"
+        Me.GroupBox3.Text = "Connection"
         '
         'Txt_Port
         '
@@ -114,7 +114,7 @@ Partial Class Form2
         Me.Btn_Test.Name = "Btn_Test"
         Me.Btn_Test.Size = New System.Drawing.Size(121, 23)
         Me.Btn_Test.TabIndex = 27
-        Me.Btn_Test.Text = "Testen"
+        Me.Btn_Test.Text = "Test..."
         Me.Btn_Test.UseVisualStyleBackColor = True
         '
         'Txt_DB
@@ -162,9 +162,9 @@ Partial Class Form2
         Me.Lbl_Pass.AutoSize = True
         Me.Lbl_Pass.Location = New System.Drawing.Point(6, 48)
         Me.Lbl_Pass.Name = "Lbl_Pass"
-        Me.Lbl_Pass.Size = New System.Drawing.Size(50, 13)
+        Me.Lbl_Pass.Size = New System.Drawing.Size(53, 13)
         Me.Lbl_Pass.TabIndex = 23
-        Me.Lbl_Pass.Text = "Passwort"
+        Me.Lbl_Pass.Text = "Password"
         '
         'Txt_User
         '
@@ -178,9 +178,9 @@ Partial Class Form2
         Me.Lbl_User.AutoSize = True
         Me.Lbl_User.Location = New System.Drawing.Point(6, 22)
         Me.Lbl_User.Name = "Lbl_User"
-        Me.Lbl_User.Size = New System.Drawing.Size(75, 13)
+        Me.Lbl_User.Size = New System.Drawing.Size(55, 13)
         Me.Lbl_User.TabIndex = 20
-        Me.Lbl_User.Text = "Benutzername"
+        Me.Lbl_User.Text = "Username"
         '
         'GroupBox2
         '
@@ -198,7 +198,7 @@ Partial Class Form2
         Me.GroupBox2.Size = New System.Drawing.Size(1082, 117)
         Me.GroupBox2.TabIndex = 19
         Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Standartverzeichnisse"
+        Me.GroupBox2.Text = "Default directories"
         '
         'Btn_Import
         '
@@ -206,7 +206,7 @@ Partial Class Form2
         Me.Btn_Import.Name = "Btn_Import"
         Me.Btn_Import.Size = New System.Drawing.Size(121, 23)
         Me.Btn_Import.TabIndex = 37
-        Me.Btn_Import.Text = "Auswählen"
+        Me.Btn_Import.Text = "Browse..."
         Me.Btn_Import.UseVisualStyleBackColor = True
         '
         'Txt_Import
@@ -221,18 +221,18 @@ Partial Class Form2
         Me.Label4.AutoSize = True
         Me.Label4.Location = New System.Drawing.Point(5, 82)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(132, 13)
+        Me.Label4.Size = New System.Drawing.Size(112, 13)
         Me.Label4.TabIndex = 35
-        Me.Label4.Text = "Standart-Importverzeichnis"
+        Me.Label4.Text = "Default import location"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(6, 53)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(133, 13)
+        Me.Label3.Size = New System.Drawing.Size(113, 13)
         Me.Label3.TabIndex = 34
-        Me.Label3.Text = "Standart-Exportverzeichnis"
+        Me.Label3.Text = "Default export location"
         '
         'Btn_Backup
         '
@@ -240,7 +240,7 @@ Partial Class Form2
         Me.Btn_Backup.Name = "Btn_Backup"
         Me.Btn_Backup.Size = New System.Drawing.Size(121, 23)
         Me.Btn_Backup.TabIndex = 33
-        Me.Btn_Backup.Text = "Auswählen"
+        Me.Btn_Backup.Text = "Browse..."
         Me.Btn_Backup.UseVisualStyleBackColor = True
         '
         'Txt_Backup
@@ -250,34 +250,13 @@ Partial Class Form2
         Me.Txt_Backup.Size = New System.Drawing.Size(736, 20)
         Me.Txt_Backup.TabIndex = 32
         '
-        'CB_Time
-        '
-        Me.CB_Time.AutoSize = True
-        Me.CB_Time.Enabled = False
-        Me.CB_Time.Location = New System.Drawing.Point(44, 326)
-        Me.CB_Time.Name = "CB_Time"
-        Me.CB_Time.Size = New System.Drawing.Size(258, 17)
-        Me.CB_Time.TabIndex = 31
-        Me.CB_Time.Text = "aktuelle Uhrzeit für Exportdateinamen verwenden"
-        Me.CB_Time.UseVisualStyleBackColor = True
-        '
-        'CB_Date
-        '
-        Me.CB_Date.AutoSize = True
-        Me.CB_Date.Location = New System.Drawing.Point(16, 303)
-        Me.CB_Date.Name = "CB_Date"
-        Me.CB_Date.Size = New System.Drawing.Size(261, 17)
-        Me.CB_Date.TabIndex = 30
-        Me.CB_Date.Text = "aktuelles Datum für Exportdateinamen verwenden"
-        Me.CB_Date.UseVisualStyleBackColor = True
-        '
         'Btn_Folder
         '
         Me.Btn_Folder.Location = New System.Drawing.Point(955, 19)
         Me.Btn_Folder.Name = "Btn_Folder"
         Me.Btn_Folder.Size = New System.Drawing.Size(121, 23)
         Me.Btn_Folder.TabIndex = 28
-        Me.Btn_Folder.Text = "Auswählen"
+        Me.Btn_Folder.Text = "Browse..."
         Me.Btn_Folder.UseVisualStyleBackColor = True
         '
         'Label1
@@ -285,9 +264,9 @@ Partial Class Form2
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(6, 24)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(99, 13)
+        Me.Label1.Size = New System.Drawing.Size(85, 13)
         Me.Label1.TabIndex = 29
-        Me.Label1.Text = "MySQL-Verzeichnis"
+        Me.Label1.Text = "MySQL directory"
         '
         'Txt_MySQL
         '
@@ -303,7 +282,7 @@ Partial Class Form2
         Me.Btn_Abort.Name = "Btn_Abort"
         Me.Btn_Abort.Size = New System.Drawing.Size(127, 23)
         Me.Btn_Abort.TabIndex = 8
-        Me.Btn_Abort.Text = "Abbrechen"
+        Me.Btn_Abort.Text = "Cancel"
         Me.Btn_Abort.UseVisualStyleBackColor = True
         '
         'Btn_Save
@@ -312,8 +291,29 @@ Partial Class Form2
         Me.Btn_Save.Name = "Btn_Save"
         Me.Btn_Save.Size = New System.Drawing.Size(127, 23)
         Me.Btn_Save.TabIndex = 9
-        Me.Btn_Save.Text = "Übernehmen"
+        Me.Btn_Save.Text = "Apply"
         Me.Btn_Save.UseVisualStyleBackColor = True
+        '
+        'CB_Date
+        '
+        Me.CB_Date.AutoSize = True
+        Me.CB_Date.Location = New System.Drawing.Point(16, 303)
+        Me.CB_Date.Name = "CB_Date"
+        Me.CB_Date.Size = New System.Drawing.Size(197, 17)
+        Me.CB_Date.TabIndex = 30
+        Me.CB_Date.Text = "Use current date for export file name"
+        Me.CB_Date.UseVisualStyleBackColor = True
+        '
+        'CB_Time
+        '
+        Me.CB_Time.AutoSize = True
+        Me.CB_Time.Enabled = False
+        Me.CB_Time.Location = New System.Drawing.Point(44, 326)
+        Me.CB_Time.Name = "CB_Time"
+        Me.CB_Time.Size = New System.Drawing.Size(195, 17)
+        Me.CB_Time.TabIndex = 31
+        Me.CB_Time.Text = "Use current time for export file name"
+        Me.CB_Time.UseVisualStyleBackColor = True
         '
         'FBD_MySQL
         '
@@ -343,7 +343,7 @@ Partial Class Form2
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.MaximizeBox = False
         Me.Name = "Form2"
-        Me.Text = "Einstellungen - Import - Export für Digikam"
+        Me.Text = "Settings"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox3.ResumeLayout(False)

@@ -99,7 +99,7 @@ Public Class Form2
     End Sub
 
 #End Region
-#Region "Bestätigen"
+#Region "Apply"
     ' Save Settings
     Private Sub Btn_Save_Click(sender As Object, e As EventArgs) Handles Btn_Save.Click
         INIDatei.Pfad = Form1.INIPfad + "\setup.ini"

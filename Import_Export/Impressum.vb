@@ -19,9 +19,9 @@ Public NotInheritable Class Impressum
         Me.LabelCopyright.Text = My.Application.Info.Copyright
         Me.LabelCompanyName.Text = My.Application.Info.CompanyName
         Me.TextBoxDescription.Text = My.Application.Info.Description & vbNewLine & vbNewLine &
-            "Dieses Programm wurde im Rahmen der Besonderen Lernleistung im Fach Informatik von Laurenz Vogt entwickelt." & vbNewLine & vbNewLine &
-            "Vielen Dank an meinen Begleiter C. Stauch." & vbNewLine & vbNewLine & "Dieses Programm ist lizensiert unter GNU General Public License v3." &
-            vbNewLine & "Siehe http: //www.gnu.org/licenses/ für weitere Informationen."
+            "The developement of this program originates in the 'Special Learning Task' of Laurenz Vogt." & vbNewLine & vbNewLine &
+            "Special thanks to C. Stauch." & vbNewLine & vbNewLine & "This program is licensed under GNU General Public License v3." &
+            vbNewLine & "See http: //www.gnu.org/licenses/ for further information."
 
     End Sub
 
