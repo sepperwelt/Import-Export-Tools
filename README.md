@@ -11,6 +11,4 @@ Graphics: M. Ellmers.
 # Advise for developers
 Please make sure you've added the proper tags and projects to your issues and pull requests. 
 Link pull requests to your issues.
-New issues are automatically copied to their respective project.
-
-Please add the issue number in brackets [#...] infront of the title of your pull request.
+New issues are copied mostly automatically to their respective project.
