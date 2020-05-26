@@ -2,9 +2,7 @@
 ' You should have received a copy Of the GNU General Public License along with 'Import-Export-Tools für DigiKam'.  If Not, see <http: //www.gnu.org/licenses/>.
 ' (c) Copyright  Laurenz Vogt, 2017-2019
 
-
-Imports Import_Export.Objects
-Imports Import_Export.Objects.MySQL
+Option Explicit On
 Imports System.IO
 
 Public Class Form2

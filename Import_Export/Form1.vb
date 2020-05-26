@@ -3,8 +3,6 @@
 ' (c) Copyright  Laurenz Vogt, 2017-2019
 
 Option Explicit On
-Imports Import_Export.Objects
-Imports Import_Export.Objects.MySQL
 
 Public Class Form1
     Dim Pfad As String
@@ -62,6 +60,12 @@ Public Class Form1
     End Function
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        ' ### Check for new Updates
+        If Data.CheckUpdates() Then
+            Data.InstallUpdates()
+        End If
+
+        ' ### Continue initialising
         INIPfad = "C:\Users\" + Environment.UserName + "\AppData\Roaming\Import_Export\"
         INIDatei.Pfad = INIPfad + "setup.ini"
 
@@ -91,7 +95,7 @@ Public Class Form1
                 INIDatei.WertSchreiben("Settings", "Date", "True")
             End If
         Catch
-            ' Error Msg missing
+            ' ### Error Msg missing
             Exit Try
         End Try
 
@@ -178,10 +182,6 @@ Public Class Form1
     ' Menü konfigurieren
 
     Private Sub Menu_Imp_Click(sender As Object, e As EventArgs) Handles Menu_Imp.Click
-        'Dim Impressum As String = "Import-Export-Tools für Digikam (ext. MySql)" & vbNewLine & "Dieses Programm wurde im Rahmen der Besonderen Lernleistung im Fach Informatik von Laurenz Vogt entwickelt." _
-        '        & vbNewLine & vbNewLine & "(c) Laurenz Vogt" & vbNewLine & "(c) 2017-2019" & vbNewLine & "Alle Rechte vorbehalten." & vbNewLine & vbNewLine & "Vielen Dank an meinen Begleiter C. Stauch."
-
-        'MessageBox.Show(Impressum, "Impressum", MessageBoxButtons.OK, MessageBoxIcon.Information)
         Impressum.ShowDialog()
     End Sub
 
@@ -201,7 +201,9 @@ Public Class Form1
     End Sub
 
     Private Sub Menu_Updates_Click(sender As Object, e As EventArgs) Handles Menu_Updates.Click
-
+        If Data.CheckUpdates() Then
+            Data.InstallUpdates()
+        End If
     End Sub
 #End Region
 End Class

@@ -12,8 +12,8 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyTitle("Import-Export-Tools")>
 <Assembly: AssemblyDescription("Backup-Programm für DigiKam (ext. MySQL)")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("Import-Export-Tools für DigiKam")>
-<Assembly: AssemblyCopyright("Copyright ©  2017-2019 Laurenz Vogt")>
+<Assembly: AssemblyProduct("Import-Export-Tools for DigiKam")>
+<Assembly: AssemblyCopyright("Copyright ©  2017-2020 Laurenz Vogt")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
@@ -32,6 +32,6 @@ Imports System.Runtime.InteropServices
 ' übernehmen, indem Sie "*" eingeben:
 ' <Assembly: AssemblyVersion("1.0.*")>
 
-<Assembly: AssemblyVersion("1.5.0.13")>
-<Assembly: AssemblyFileVersion("1.5.0.13")>
-<Assembly: NeutralResourcesLanguage("de-DE")>
+<Assembly: AssemblyVersion("1.5.0.14")>
+<Assembly: AssemblyFileVersion("1.5.0.14")>
+<Assembly: NeutralResourcesLanguage("en-GB")>

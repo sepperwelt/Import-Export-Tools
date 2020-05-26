@@ -18,23 +18,23 @@
     <PublishUrl>ftp://denkerhoehle.bplaced.net/digikam/download/</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
-    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateEnabled>false</UpdateEnabled>
     <UpdateMode>Foreground</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
     <UpdateIntervalUnits>Days</UpdateIntervalUnits>
     <UpdatePeriodically>false</UpdatePeriodically>
-    <UpdateRequired>false</UpdateRequired>
+    <UpdateRequired>true</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <InstallUrl>http://denkerhoehle.bplaced.net/digikam/download/</InstallUrl>
     <ProductName>Import-Export-Tools</ProductName>
     <PublisherName>Laurenz Vogt</PublisherName>
-    <MinimumRequiredVersion>1.5.0.0</MinimumRequiredVersion>
+    <MinimumRequiredVersion>1.5.0.14</MinimumRequiredVersion>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>index.htm</WebPage>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
     <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>3</ApplicationRevision>
-    <ApplicationVersion>1.9.0.%2a</ApplicationVersion>
+    <ApplicationRevision>12</ApplicationRevision>
+    <ApplicationVersion>1.9.1.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -166,7 +166,7 @@
     <Compile Include="Form2.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Functions.vb" />
+    <Compile Include="Updater.vb" />
     <Compile Include="Impressum.Designer.vb">
       <DependentUpon>Impressum.vb</DependentUpon>
     </Compile>
