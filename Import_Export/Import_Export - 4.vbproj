@@ -166,13 +166,13 @@
     <Compile Include="Form2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Functions.vb" />
     <Compile Include="Impressum.Designer.vb">
       <DependentUpon>Impressum.vb</DependentUpon>
     </Compile>
     <Compile Include="Impressum.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Query.vb" />
     <Compile Include="INIDatei.vb" />
     <Compile Include="Notifications.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />

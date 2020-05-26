@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Import_Export.exe" size="635864">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Import_Export.exe" size="637400">
       <assemblyIdentity name="Import_Export" version="1.5.0.13" publicKeyToken="02D6632EE64BBD38" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>EVRidd1QUYSo2lXTTPjMaP3R/FJbtugKx4FXjdFMCyg=</dsig:DigestValue>
+        <dsig:DigestValue>uTY1SiGhYbIhpZuN/IQ2JOVsqk6MlnX113tvQptXUeo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

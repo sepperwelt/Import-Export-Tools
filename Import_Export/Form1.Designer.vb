@@ -49,6 +49,7 @@ Partial Class Form1
         Me.Menu_Imp = New System.Windows.Forms.ToolStripMenuItem()
         Me.SBD_Save = New System.Windows.Forms.SaveFileDialog()
         Me.OFD_DB = New System.Windows.Forms.OpenFileDialog()
+        Me.Menu_Updates = New System.Windows.Forms.ToolStripMenuItem()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
@@ -236,7 +237,7 @@ Partial Class Form1
         '
         'HilfeToolStripMenuItem
         '
-        Me.HilfeToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Menu_Help, Me.ToolStripSeparator1, Me.Menu_Imp})
+        Me.HilfeToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Menu_Updates, Me.Menu_Help, Me.ToolStripSeparator1, Me.Menu_Imp})
         Me.HilfeToolStripMenuItem.Name = "HilfeToolStripMenuItem"
         Me.HilfeToolStripMenuItem.ShortcutKeyDisplayString = ""
         Me.HilfeToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.H), System.Windows.Forms.Keys)
@@ -247,20 +248,20 @@ Partial Class Form1
         '
         Me.Menu_Help.Enabled = False
         Me.Menu_Help.Name = "Menu_Help"
-        Me.Menu_Help.Size = New System.Drawing.Size(141, 22)
+        Me.Menu_Help.Size = New System.Drawing.Size(180, 22)
         Me.Menu_Help.Text = "Help..."
         Me.Menu_Help.Visible = False
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(138, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(177, 6)
         '
         'Menu_Imp
         '
         Me.Menu_Imp.Name = "Menu_Imp"
         Me.Menu_Imp.ShortcutKeys = System.Windows.Forms.Keys.F10
-        Me.Menu_Imp.Size = New System.Drawing.Size(141, 22)
+        Me.Menu_Imp.Size = New System.Drawing.Size(180, 22)
         Me.Menu_Imp.Text = "About..."
         '
         'SBD_Save
@@ -277,6 +278,12 @@ Partial Class Form1
         Me.OFD_DB.Filter = "SQL-Dateien (*.sql)|*.sql|Alle Dateien (*.*)|*.*"
         Me.OFD_DB.InitialDirectory = "Import_Folder"
         Me.OFD_DB.Title = "Import Digikam Core DB"
+        '
+        'Menu_Updates
+        '
+        Me.Menu_Updates.Name = "Menu_Updates"
+        Me.Menu_Updates.Size = New System.Drawing.Size(180, 22)
+        Me.Menu_Updates.Text = "Updates..."
         '
         'Form1
         '
@@ -329,4 +336,5 @@ Partial Class Form1
     Friend WithEvents PB_ As ProgressBar
     Friend WithEvents PB_import As ProgressBar
     Friend WithEvents Label8 As Label
+    Friend WithEvents Menu_Updates As ToolStripMenuItem
 End Class

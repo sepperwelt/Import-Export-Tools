@@ -23,7 +23,7 @@ Public Class Form1
     Public INIPfad As String
     Friend MyCon As MySQLConnector = New MySQLConnector
 
-    Function Query(Methode As Integer, Optional Path As String = Nothing)
+    Function RequestHandler(Methode As Integer, Optional Path As String = Nothing)
         Select Case Methode
             Case 1  ' Export
                 If (Path = Nothing) Then
@@ -33,7 +33,7 @@ Public Class Form1
                 End If
 
 
-                Functions.Query.Execute_Query(Path, Host, User, Pass, DB1, False, Port)
+                Query.Execute_Query(Path, Host, User, Pass, DB1, False, Port)
 
                 Return 0
                 Exit Function
@@ -45,7 +45,7 @@ Public Class Form1
                     Exit Function
                 End If
 
-                Functions.Query.Execute_Query(Path, Host, User, Pass, DB1, True, Port)
+                Query.Execute_Query(Path, Host, User, Pass, DB1, True, Port)
 
                 Info.ErrHandler(601)
                 Return 0
@@ -154,7 +154,7 @@ Public Class Form1
 
 
         Try
-            Query(1, Path)      ' ### neue Meldung einfügen ###
+            RequestHandler(1, Path)      ' ### neue Meldung einfügen ###
         Catch ex As Exception
             Faults.ErrHandler(904, , ex.Message)
             Exit Sub
@@ -165,7 +165,12 @@ Public Class Form1
 
     ' Import-DB - Button
     Private Sub Btn_Import_Click(sender As Object, e As EventArgs) Handles Btn_Import.Click
-        Query(2, Txt_DB.Text)
+        Try
+            RequestHandler(2, Txt_DB.Text)
+        Catch ex As Exception
+            'Faults.ErrHandler(904, , ex.Message) ' ### add new msg ###
+            Exit Sub
+        End Try
     End Sub
 #End Region
 
@@ -193,6 +198,10 @@ Public Class Form1
     ' Programm schließen
     Private Sub Menu_Close_Click(sender As Object, e As EventArgs) Handles Menu_close.Click
         Me.Close()
+    End Sub
+
+    Private Sub Menu_Updates_Click(sender As Object, e As EventArgs) Handles Menu_Updates.Click
+
     End Sub
 #End Region
 End Class
