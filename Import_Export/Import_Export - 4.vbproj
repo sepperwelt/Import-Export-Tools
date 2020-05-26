@@ -33,8 +33,8 @@
     <WebPage>index.htm</WebPage>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
     <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>1</ApplicationRevision>
-    <ApplicationVersion>1.8.1.%2a</ApplicationVersion>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.9.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>

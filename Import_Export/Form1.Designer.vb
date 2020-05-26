@@ -49,7 +49,6 @@ Partial Class Form1
         Me.Menu_Imp = New System.Windows.Forms.ToolStripMenuItem()
         Me.SBD_Save = New System.Windows.Forms.SaveFileDialog()
         Me.OFD_DB = New System.Windows.Forms.OpenFileDialog()
-        Me.FBD_Save = New System.Windows.Forms.FolderBrowserDialog()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
@@ -109,9 +108,9 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(6, 23)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(48, 13)
+        Me.Label1.Size = New System.Drawing.Size(51, 13)
         Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Location"
+        Me.Label1.Text = "Location:"
         '
         'Btn_Save
         '
@@ -192,9 +191,9 @@ Partial Class Form1
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(6, 23)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(110, 13)
+        Me.Label3.Size = New System.Drawing.Size(126, 13)
         Me.Label3.TabIndex = 0
-        Me.Label3.Text = "Location Digikam DB:"
+        Me.Label3.Text = "Location Digikam DB file:"
         '
         'MenuStrip1
         '
@@ -220,19 +219,19 @@ Partial Class Form1
         Me.Menu_eig.Name = "Menu_eig"
         Me.Menu_eig.ShortcutKeyDisplayString = ""
         Me.Menu_eig.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.S), System.Windows.Forms.Keys)
-        Me.Menu_eig.Size = New System.Drawing.Size(180, 22)
+        Me.Menu_eig.Size = New System.Drawing.Size(165, 22)
         Me.Menu_eig.Text = "Settings..."
         '
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(177, 6)
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(162, 6)
         '
         'Menu_close
         '
         Me.Menu_close.Name = "Menu_close"
         Me.Menu_close.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.F4), System.Windows.Forms.Keys)
-        Me.Menu_close.Size = New System.Drawing.Size(180, 22)
+        Me.Menu_close.Size = New System.Drawing.Size(165, 22)
         Me.Menu_close.Text = "Exit..."
         '
         'HilfeToolStripMenuItem
@@ -248,20 +247,20 @@ Partial Class Form1
         '
         Me.Menu_Help.Enabled = False
         Me.Menu_Help.Name = "Menu_Help"
-        Me.Menu_Help.Size = New System.Drawing.Size(180, 22)
+        Me.Menu_Help.Size = New System.Drawing.Size(141, 22)
         Me.Menu_Help.Text = "Help..."
         Me.Menu_Help.Visible = False
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(177, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(138, 6)
         '
         'Menu_Imp
         '
         Me.Menu_Imp.Name = "Menu_Imp"
         Me.Menu_Imp.ShortcutKeys = System.Windows.Forms.Keys.F10
-        Me.Menu_Imp.Size = New System.Drawing.Size(180, 22)
+        Me.Menu_Imp.Size = New System.Drawing.Size(141, 22)
         Me.Menu_Imp.Text = "About..."
         '
         'SBD_Save
@@ -278,11 +277,6 @@ Partial Class Form1
         Me.OFD_DB.Filter = "SQL-Dateien (*.sql)|*.sql|Alle Dateien (*.*)|*.*"
         Me.OFD_DB.InitialDirectory = "Import_Folder"
         Me.OFD_DB.Title = "Import Digikam Core DB"
-        '
-        'FBD_Save
-        '
-        Me.FBD_Save.Description = "Bitte wählen Sie das Zielverzeichnis aus."
-        Me.FBD_Save.RootFolder = System.Environment.SpecialFolder.MyComputer
         '
         'Form1
         '
@@ -335,5 +329,4 @@ Partial Class Form1
     Friend WithEvents PB_ As ProgressBar
     Friend WithEvents PB_import As ProgressBar
     Friend WithEvents Label8 As Label
-    Friend WithEvents FBD_Save As FolderBrowserDialog
 End Class

@@ -78,19 +78,25 @@ Public Class Form1
             Host = INIDatei.WertLesen("Con", "Host")
             Port = INIDatei.WertLesen("Con", "Port")
             DB1 = INIDatei.WertLesen("DB", "DB1")
+
             MyCon.MySQL_Folder = INIDatei.WertLesen("MySQL", "MySQL-Folder")
             Date_sel = INIDatei.WertLesen("Settings", "Date")
             Time_sel = INIDatei.WertLesen("Settings", "Time")
             Backup_Folder = INIDatei.WertLesen("Settings", "Backup")
-            FBD_Save.RootFolder = Backup_Folder
             Import_Folder = INIDatei.WertLesen("Settings", "Import")
+
+            SBD_Save.InitialDirectory = Backup_Folder
 
             If (Date_sel = False) And (Time_sel = True) Then
                 INIDatei.WertSchreiben("Settings", "Date", "True")
             End If
         Catch
+            ' Error Msg missing
             Exit Try
         End Try
+
+        Txt_Save.Text = Backup_Folder
+        Txt_DB.Text = Import_Folder
 
         If (Date_sel = True) Or (Time_sel = True) Then
             Label8.Text = "Date and Time are added to the file name after the process has started."
@@ -100,8 +106,6 @@ Public Class Form1
 
         If (Backup_Folder = Nothing) Or (Backup_Folder = "") Then
             SBD_Save.InitialDirectory = Environment.SpecialFolder.MyComputer
-            FBD_Save.RootFolder = Environment.SpecialFolder.MyComputer
-
         End If
 
         If (Import_Folder = Nothing) Or (Import_Folder = "") Then
@@ -112,15 +116,9 @@ Public Class Form1
 #Region "Buttons"
     ' SaveDialog - Button
     Private Sub Btn_Save_Click(sender As Object, e As EventArgs) Handles Btn_Save.Click
-        If (Date_sel = False) And (Time_sel = False) Then
-            SBD_Save.ShowDialog()
-            Path = SBD_Save.FileName
-            Txt_Save.Text = SBD_Save.FileName
-        Else
-            FBD_Save.ShowDialog()
-            Path = FBD_Save.SelectedPath
-            Txt_Save.Text = FBD_Save.SelectedPath
-        End If
+        SBD_Save.ShowDialog()
+        Path = SBD_Save.FileName
+        Txt_Save.Text = SBD_Save.FileName
     End Sub
 
     ' OpenDialog - Button
@@ -133,6 +131,7 @@ Public Class Form1
 
     ' Export-DB - Button
     Private Sub Btn_Export_Click(sender As Object, e As EventArgs) Handles Btn_Export.Click
+        Path = Path.Substring(0, Path.Length - 4)
         If (Date_sel = True) And (Time_sel = False) Then
             Path = Path &
                 "\" & DateTime.Now.Year &
@@ -149,15 +148,19 @@ Public Class Form1
                 "-" & DateTime.Now.Minute &
                 "-" & DateTime.Now.Second &
                 ".sql"
+        Else
+            Path += ".sql"
         End If
 
 
         Try
             Query(1, Path)      ' ### neue Meldung einfügen ###
-            MessageBox.Show("The Database is exported successfully and the file is saved in the specified directory.", "Export successful", MessageBoxButtons.OK, MessageBoxIcon.Information)
         Catch ex As Exception
             Faults.ErrHandler(904, , ex.Message)
+            Exit Sub
         End Try
+
+        MessageBox.Show("The Database is exported successfully and the file is saved in the specified directory.", "Export successful", MessageBoxButtons.OK, MessageBoxIcon.Information)
     End Sub
 
     ' Import-DB - Button
