@@ -8,7 +8,7 @@ Graphics: M. Ellmers.
 
 (c) 2018-2020
 
-# Advise for developers
+### Advises for developers
 Please make sure you've added the proper tags and projects to your issues and pull requests. 
 Link pull requests to your issues.
 
@@ -17,3 +17,5 @@ New issues are copied mostly automatically to their respective project. Make sur
 Please name your new branches according to their respective issue number (i.e. [iss01]).
 
 The Revision number must not be resetted and thus is incremented indefinetely.
+
+**Please commit your changes first of all into a sub-branch of `Developement`. Minor and mostly major changes and updates will be merged into the `Master`branch.**
