@@ -11,4 +11,7 @@ Graphics: M. Ellmers.
 # Advise for developers
 Please make sure you've added the proper tags and projects to your issues and pull requests. 
 Link pull requests to your issues.
+
 New issues are copied mostly automatically to their respective project.
+
+Please name your new branches according to their respective issue number (i.e. [iss01]).
