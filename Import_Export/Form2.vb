@@ -16,6 +16,7 @@ Public Class Form2
     Dim Port As Int16
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.Icon = Form1.Icon
         Try
             Txt_User.Text = INIDatei.WertLesen("Con", "User")
             Txt_Pass.Text = INIDatei.WertLesen("Con", "Pass")

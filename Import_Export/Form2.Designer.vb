@@ -114,7 +114,7 @@ Partial Class Form2
         Me.Btn_Test.Name = "Btn_Test"
         Me.Btn_Test.Size = New System.Drawing.Size(121, 23)
         Me.Btn_Test.TabIndex = 27
-        Me.Btn_Test.Text = "Test..."
+        Me.Btn_Test.Text = "Test Connection..."
         Me.Btn_Test.UseVisualStyleBackColor = True
         '
         'Txt_DB
