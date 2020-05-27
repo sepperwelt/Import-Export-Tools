@@ -9,4 +9,4 @@ Graphics: M. Ellmers.
 (c) 2018-2020
 
 ### Advises for developers
-Please see [the advises for developers here](.git/CONTRIBUTING.md )
+Please see [the advises for developers here.](/.github/CONTRIBUTING.md )
