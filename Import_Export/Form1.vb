@@ -56,13 +56,13 @@ Public Class Form1
                 Return 1
                 Exit Function
         End Select
-        Warnings.ErrHandler(899)
+        Notification.Warnings.ErrHandler(899)
 
         Return 1
     End Function
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        INIPfad = "C:\Users\" + Environment.UserName + "\AppData\Roaming\Import_Export\"
+        INIPfad = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\Import_Export\"
         INIDatei.Pfad = INIPfad + "setup.ini"
 
         If Not My.Computer.FileSystem.FileExists(INIDatei.Pfad) Then

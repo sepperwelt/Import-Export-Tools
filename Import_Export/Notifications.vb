@@ -11,15 +11,17 @@ Namespace Objects
                 Select Case ErrCode
                     Case 900
                         MessageBox.Show("Err #900: Faulty argument in query function!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                        Throw New ArgumentException
                         Exit Sub
 
                     Case 901
                         MessageBox.Show("Err #901: Please enter a proper file location for saving the database!", "Error: No directory", MessageBoxButtons.OK, MessageBoxIcon.Error)
-
+                        Throw New IO.FileNotFoundException
                         Exit Sub
 
                     Case 902
                         MessageBox.Show("Err #902: Please enter a proper file for loading the database!", "Error: No file", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                        Throw New IO.FileNotFoundException
                         Exit Sub
 
                     'Case 903
@@ -28,42 +30,52 @@ Namespace Objects
 
                     Case 904
                         MessageBox.Show("Err #904: An error occured while trying to save the database. " & vbNewLine & vbNewLine & "Error text: " & ex, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                        ' New Exception needed here
                         Exit Sub
 
                     Case 905
                         MessageBox.Show("Err #990: Internal Error" & vbNewLine & vbNewLine & "Error text: " & ex, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                        ' New Exception needed here
                         Exit Sub
 
                     Case 906
                         MessageBox.Show("Err #906: An error occured while trying to connect with the server." & vbNewLine & vbNewLine & "MySQL-Error number: #" & ex, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                        ' New Exception needed here
                         Exit Sub
 
                     Case 907
                         MessageBox.Show("Err #907: The given connection details aren't correct." & vbNewLine & vbNewLine & "MySQL-Error number: #" & ex, "Err", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                        ' New Exception needed here
                         Exit Sub
 
                     Case 908
                         MessageBox.Show("Err #908: The given file does not exist or was moved." & vbNewLine & vbNewLine & "Please check the file and restart the process.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                        Throw New IO.FileNotFoundException
                         Exit Sub
 
                     Case 909
                         MessageBox.Show("Err #909: An error occured while trying to create the database." & vbNewLine & "Please check the given data and restart the process." & vbNewLine & vbNewLine & "Error text: " & ex, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                        ' New Exception needed here
                         Exit Sub
 
                     Case 910
                         MessageBox.Show("Err #910: An error occured while trying to connect to the server. Please check the connection data or availability of the server.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                        ' New Exception needed here
                         Exit Sub
 
                     Case 911
                         MessageBox.Show("Err #911: An error occured while loading the file." & vbNewLine & vbNewLine & "Error: " & ex, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                        ' New Exception needed here
                         Exit Sub
 
                     Case 912
                         MessageBox.Show("Err #912: A file with the same name exists already." & vbNewLine & "Please change the name or delete the existing file.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                        ' New Exception needed here
                         Exit Sub
 
                     Case 999
                         MessageBox.Show("Err #999: An error occured.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                        ' New Exception needed here
                         Exit Sub
 
                 End Select
@@ -116,7 +128,7 @@ Namespace Objects
             Shared Sub ErrHandler(ErrCode As Int16, Optional Pfad As String = Nothing, Optional Msg As String = Nothing)
                 Select Case ErrCode
                     Case 700
-                        MessageBox.Show("Hint #700: The requiered setup.ini is missing or was deleted. Please enter the needed data to recover the file properly.", "Hint")
+                        MessageBox.Show("Hint #700: The required setup.ini is missing or was deleted. Please enter the needed data to recover the file properly.", "Hint")
 
                         Exit Sub
                 End Select

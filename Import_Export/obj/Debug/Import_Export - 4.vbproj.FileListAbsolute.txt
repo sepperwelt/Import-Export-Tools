@@ -49,3 +49,30 @@ C:\Users\Laurenz\Documents\Schule\Facharbeit\Programm\Import_Export - 4\Import_E
 C:\Users\Laurenz\Documents\Schule\Facharbeit\Programm\Import_Export - 4\Import_Export\obj\Debug\Import_Export.exe
 C:\Users\Laurenz\Documents\Schule\Facharbeit\Programm\Import_Export - 4\Import_Export\obj\Debug\Import_Export.xml
 C:\Users\Laurenz\Documents\Schule\Facharbeit\Programm\Import_Export - 4\Import_Export\obj\Debug\Import_Export.pdb
+C:\Users\Laurenz\Documents\Visual Studio 2019\Projects\Import-Export-Tools\Import_Export\obj\Debug\Import_Export - 4.vbprojAssemblyReference.cache
+C:\Users\Laurenz\Documents\Visual Studio 2019\Projects\Import-Export-Tools\Import_Export\obj\Debug\Import_Export.Form1.resources
+C:\Users\Laurenz\Documents\Visual Studio 2019\Projects\Import-Export-Tools\Import_Export\obj\Debug\Import_Export.Form2.resources
+C:\Users\Laurenz\Documents\Visual Studio 2019\Projects\Import-Export-Tools\Import_Export\obj\Debug\Import_Export.Impressum.resources
+C:\Users\Laurenz\Documents\Visual Studio 2019\Projects\Import-Export-Tools\Import_Export\obj\Debug\Import_Export.Resources.resources
+C:\Users\Laurenz\Documents\Visual Studio 2019\Projects\Import-Export-Tools\Import_Export\obj\Debug\Import_Export - 4.vbproj.GenerateResource.cache
+C:\Users\Laurenz\Documents\Visual Studio 2019\Projects\Import-Export-Tools\Import_Export\obj\Debug\Import_Export.exe
+C:\Users\Laurenz\Documents\Visual Studio 2019\Projects\Import-Export-Tools\Import_Export\obj\Debug\Import_Export.xml
+C:\Users\Laurenz\Documents\Visual Studio 2019\Projects\Import-Export-Tools\Import_Export\obj\Debug\Import_Export.pdb
+C:\Users\Laurenz\Documents\Visual Studio 2019\Projects\Import-Export-Tools\Import_Export\bin\Debug\Import_Export.exe.config
+C:\Users\Laurenz\Documents\Visual Studio 2019\Projects\Import-Export-Tools\Import_Export\bin\Debug\Import_Export.exe.manifest
+C:\Users\Laurenz\Documents\Visual Studio 2019\Projects\Import-Export-Tools\Import_Export\bin\Debug\Import_Export.application
+C:\Users\Laurenz\Documents\Visual Studio 2019\Projects\Import-Export-Tools\Import_Export\bin\Debug\Import_Export.exe
+C:\Users\Laurenz\Documents\Visual Studio 2019\Projects\Import-Export-Tools\Import_Export\bin\Debug\Import_Export.pdb
+C:\Users\Laurenz\Documents\Visual Studio 2019\Projects\Import-Export-Tools\Import_Export\bin\Debug\Import_Export.xml
+C:\Users\Laurenz\Documents\Visual Studio 2019\Projects\Import-Export-Tools\Import_Export\bin\Debug\Microsoft.Win32.Registry.dll
+C:\Users\Laurenz\Documents\Visual Studio 2019\Projects\Import-Export-Tools\Import_Export\bin\Debug\MySql.Data.dll
+C:\Users\Laurenz\Documents\Visual Studio 2019\Projects\Import-Export-Tools\Import_Export\bin\Debug\MySqlBackup.dll
+C:\Users\Laurenz\Documents\Visual Studio 2019\Projects\Import-Export-Tools\Import_Export\bin\Debug\System.Security.AccessControl.dll
+C:\Users\Laurenz\Documents\Visual Studio 2019\Projects\Import-Export-Tools\Import_Export\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Laurenz\Documents\Visual Studio 2019\Projects\Import-Export-Tools\Import_Export\bin\Debug\Google.Protobuf.dll
+C:\Users\Laurenz\Documents\Visual Studio 2019\Projects\Import-Export-Tools\Import_Export\bin\Debug\MySql.Data.xml
+C:\Users\Laurenz\Documents\Visual Studio 2019\Projects\Import-Export-Tools\Import_Export\obj\Debug\Import_Export - 4.vbproj.CoreCompileInputs.cache
+C:\Users\Laurenz\Documents\Visual Studio 2019\Projects\Import-Export-Tools\Import_Export\obj\Debug\Import_Export.TrustInfo.xml
+C:\Users\Laurenz\Documents\Visual Studio 2019\Projects\Import-Export-Tools\Import_Export\obj\Debug\Import_Export.exe.manifest
+C:\Users\Laurenz\Documents\Visual Studio 2019\Projects\Import-Export-Tools\Import_Export\obj\Debug\Import_Export.application
+C:\Users\Laurenz\Documents\Visual Studio 2019\Projects\Import-Export-Tools\Import_Export\obj\Debug\Import_Export - 4.vbproj.CopyComplete
