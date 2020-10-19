@@ -29,7 +29,7 @@ Public Class Form2
             CB_Time.Checked = INIDatei.WertLesen("Settings", "Time")
 
         Catch ex As Exception
-            Faults.ErrHandler(911)
+            Faults.ErrHandler(911, , "The required setup.ini could not be opened or found.")
             Exit Try
         End Try
 
