@@ -56,12 +56,14 @@ Public Class Form1
                 Return 1
                 Exit Function
         End Select
-        Notification.Warnings.ErrHandler(899)
+        Warnings.ErrHandler(899)
 
         Return 1
     End Function
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+
         INIPfad = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\Import_Export\"
         INIDatei.Pfad = INIPfad + "setup.ini"
 
