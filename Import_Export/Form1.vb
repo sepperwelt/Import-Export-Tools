@@ -84,8 +84,9 @@ Public Class Form1
             Date_sel = INIDatei.WertLesen("Settings", "Date")
             Time_sel = INIDatei.WertLesen("Settings", "Time")
             Backup_Folder = INIDatei.WertLesen("Settings", "Backup")
-            FBD_Save.RootFolder = Backup_Folder
             Import_Folder = INIDatei.WertLesen("Settings", "Import")
+            Txt_Save.Text = Backup_Folder
+            Txt_DB.Text = Import_Folder + "\digikam.sql"
 
             If (Date_sel = False) And (Time_sel = True) Then
                 INIDatei.WertSchreiben("Settings", "Date", "True")
