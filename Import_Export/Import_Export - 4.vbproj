@@ -73,11 +73,9 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>11011601DEF7EAFFE529325224991A0F481F30BD</ManifestCertificateThumbprint>
     <ManifestCertificateThumbprint>E0F385AEACE573C073D0CA608D38D1FD79AA2FE0</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>Import_Export - 4_TemporaryKey.pfx</ManifestKeyFile>
     <ManifestKeyFile>Import-Export-Tools_Key.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
@@ -96,7 +94,6 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>Import_Export - 4_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
     <AssemblyOriginatorKeyFile>Import-Export-Tools_Key.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup>

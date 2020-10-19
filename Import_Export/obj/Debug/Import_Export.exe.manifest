@@ -4,7 +4,6 @@
   <description asmv2:iconFile="orange.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="Import_Export" version="1.5.0.13" publicKeyToken="02D6632EE64BBD38" language="neutral" processorArchitecture="msil" />
     <assemblyIdentity name="Import_Export" version="1.5.0.13" publicKeyToken="25BA0BF5179115C9" language="neutral" processorArchitecture="msil" />
     <commandLine file="Import_Export.exe" parameters="" />
   </entryPoint>
@@ -46,6 +45,7 @@
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Google.Protobuf.dll" size="298496">
       <assemblyIdentity name="Google.Protobuf" version="3.6.1.0" publicKeyToken="A7D26565BAC4D604" language="neutral" processorArchitecture="msil" />
+<<<<<<< Updated upstream
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -58,12 +58,16 @@
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Import_Export.exe" size="636888">
       <assemblyIdentity name="Import_Export" version="1.5.0.13" publicKeyToken="02D6632EE64BBD38" language="neutral" processorArchitecture="msil" />
+=======
+>>>>>>> Stashed changes
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+<<<<<<< Updated upstream
         <dsig:DigestValue>+bDd5I65PEezLx66lV0uS2N5KgXMFJK8S0ZA2lD6ORM=</dsig:DigestValue>
+=======
         <dsig:DigestValue>tmCHIa/sZfxfbRML4V98ONw3aJn73tQolsd5EaiejRM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
@@ -76,6 +80,8 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>R3j4javE6uO3nEfaDdGMi4fh7ra96IP/0L9c/Al4jXo=</dsig:DigestValue>
+>>>>>>> Stashed changes
       </hash>
     </dependentAssembly>
   </dependency>
